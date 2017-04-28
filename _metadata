@@ -1,0 +1,8 @@
+{
+  "description" : "[img]http://i.imgur.com/Na1Ts6H.gif[/img]\n\n- Adds a torch that can be held in one hand, and can be placed at a smaller range than the matter manipulator\n- Changes the bare-hands torch recipe into a handheld torch, and adds two recipes to change a handheld torch into a \"real\" torch and vice versa\n- Placed torches will spawn handheld torches when broken\n\n\nBased on an idea from Kizuna",
+  "friendlyName" : "Handheld torches",
+  "link" : "steam://url/CommunityFilePage/914831600",
+  "name" : "handheldtorches",
+  "steamContentId" : "914831600",
+  "version" : "1"
+}

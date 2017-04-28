@@ -1,0 +1,6 @@
+{
+  "input" : [ { "item" : "torch", "count" : 1 } ],
+  "output" : {"item" : "handheldtorch" },
+  "duration" : 0,
+  "groups" : [ "plain", "lights", "all", "mod" ]
+}

@@ -1,0 +1,63 @@
+{
+  "itemName" : "handheldtorch",
+  "rarity" : "Common",
+  "category" : "light",
+  "twoHanded" : false,
+  
+  "price" : 5,
+
+  "itemTags" : [],
+  "colonyTags" : ["light"],
+  "race" : "generic",
+
+  "inventoryIcon" : "/objects/generic/torch/torchicon.png",
+  "largeImage" : "/objects/generic/torch/torchicon.png",
+  "tooltipKind" : "tool",
+
+  "shortdescription" : "Handheld Torch",
+  "description" : "This torch flickers softly.",
+
+  "apexDescription" : "An excellent survival tool.",
+  "avianDescription" : "Torches are essential.",
+  "floranDescription" : "Torch ssscare Floran, but Floran musst masster torch.",
+  "glitchDescription" : "Sentimental. Torches are indispensable.",
+  "humanDescription" : "A torch to light the way.",
+  "hylotlDescription" : "The humble torch, invaluable out in the wild.",
+  "novakidDescription" : "A torch. Can't live without 'em!",
+
+  "animation" : "/objects/generic/torch/torch.animation",
+  "animationParts" : {
+    "bg" : "/objects/generic/torch/torch.png",
+    "fg" : "/objects/generic/torch/torchlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/torch_on1.ogg", "/sfx/objects/torch_on2.ogg" ],
+      "off" : [ "/sfx/objects/torch_off1.ogg", "/sfx/objects/torch_off2.ogg", "/sfx/objects/torch_off3.ogg" ],
+      "soundEffect" : [ "/sfx/objects/torch.ogg" ]
+    },
+    "animatedParts" : { "parts" : {
+    "bg" : { "properties" : { "offset" : [-0.55, -0.3] } },
+    "fg" : { "properties" : { "offset" : [-0.55, -0.3] } }
+    }},
+    "lights" : {
+      "lightSpread" : {
+        "active" : true,
+        "position" : [-0.55, -0.3],
+        "color" : [179, 149, 107]
+      }
+    }
+  },
+
+  "animationScripts" : ["/items/active/effects/ephemeralpreview.lua"],
+  "scripts" : ["/items/active/previewandplace.lua", "handheldtorch.lua"],
+
+  "beamLength": "10",
+  "placeObject": "torch",
+
+  "borderColor" : [200, 100, 100],
+  "validPlacementColor" : [150, 255, 150, 128],
+  "invalidPlacementColor" : [255, 150, 150, 96],
+
+  "scriptDelta" : 3
+}
